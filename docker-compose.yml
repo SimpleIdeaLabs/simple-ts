@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: 'yarn start:dev'
+    command: 'npm run dev'
     restart: always
     env_file:
       - .env
