@@ -1,4 +1,3 @@
-import * as dotenv from 'dotenv';
-dotenv.config();
+console.log('hello');
 
-console.log(process.env.ENV);
+export const sayHello = () => 'hello';
